@@ -1,0 +1,39 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+      
+  data:
+    mongodb:
+      uri: mongodb://ssafy:ssafy1111@3.36.125.122:27017/admin?authMechanism=SCRAM-SHA-256&authSource=admin
+      database: admin
+
+
+
+  jpa:
+    defer-datasource-initialization: true
+      
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  token:
+    secret: VlwEyVBsYt9V7zq57TejMnVUyzblYcfPQye08f7MGVA9XkHa
+
+cors:
+  allowed-origins:
+    - 'http://localhost:3000'
+    - 'http://k8s101.p.ssafy.io:3000'
+    - 'http://3.36.125.122:3000'
+    - 'https://k8s101.p.ssafy.io'
+  allowed-methods: GET,POST,PUT,DELETE,OPTIONS
+  allowed-headers: '*'
+  max-age: 3600
+  
+server:
+  servlet:
+    context-path: /be
+  ssl:
+    enabled: false
+  port: 8080

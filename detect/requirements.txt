@@ -1,0 +1,7 @@
+paramiko
+boto3
+pandas
+networkx
+pymongo
+datetime
+requests

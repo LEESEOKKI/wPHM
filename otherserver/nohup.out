@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "CsvFileMaker_B.py", line 58, in <module>
+    time.sleep(1)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "CsvFileMaker_B.py", line 58, in <module>
+    time.sleep(1)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "CsvFileMaker_B.py", line 58, in <module>
+    time.sleep(1)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "CsvFileMaker_C.py", line 58, in <module>
+    time.sleep(1)
+KeyboardInterrupt

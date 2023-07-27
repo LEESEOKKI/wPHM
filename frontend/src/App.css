@@ -1,0 +1,190 @@
+.back_type {
+  background-color: #eaf2fe;
+  text-decoration: none;
+}
+.nav_item {
+  color: gray;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.login_back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 60px;
+  border-radius: 10px;
+}
+.middle {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: url("https://i.ibb.co/SxDb2rk/background.png") no-repeat center
+    center fixed;
+  background-size: cover;
+}
+.bold_header {
+  font-family: "Poppins";
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 20px;
+}
+.signup_back {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.logo {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 102px;
+  height: 28px;
+
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 100%;
+
+  align-items: center;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn2{
+  margin-left : 315px; 
+  text-decoration: none;
+}
+
+.btn3 {
+  color: white;
+}
+.btn4{
+  margin-left : 283px;
+  text-decoration: none;
+}
+.unacceptable_condition {
+  background: #ff5172;
+  border: 1px solid #ff5172;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.unsatisfactory_condition {
+  background: #fcec4f;
+  border: 1px solid #fcec4f;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.satisfactory_condition {
+  background: #30adf3;
+  border: 1px solid #30adf3;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.admin {
+  position: absolute;
+  font-size: 90px;
+  font-style: italic;
+  color: gray;
+  size: 300px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.idlabel {
+  position: absolute;
+  margin-top: 70px;
+  font-size: 30px;
+  color: black;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.Passwordlabel {
+  position: absolute;
+  margin-top: 70px;
+  font-size: 30px;
+  color: black;
+  display: inline-block;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.idlist {
+  margin-top: 30px;
+  /* display: inline-block; */
+  padding: 0;
+  list-style: none;
+}
+
+.search {
+  position: absolute;
+  height: 45px;
+  width: 40px;
+  margin-top: 130px;
+  margin-left: 10px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.table-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+table {
+  width: 100%;
+  min-width: 400px;
+}
+
+tbody {
+  display: block;
+  max-height: 600px; 
+  overflow-y: auto;
+  position: relative;
+}
+
+tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.searchicons {
+  margin-top: 136px;
+
+  color: gray;
+}
+.react-datepicker-wrapper{
+  width: 100%;
+}
+.IMG{
+  width:100%;
+  height:100%;
+  filter: opacity(0.102) drop-shadow(0 0 0 #ffffff);
+  position: relative;
+  z-index: 0;
+}
